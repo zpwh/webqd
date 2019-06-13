@@ -2447,9 +2447,17 @@ Document.ready原生种没有这个方法，jquery中有 $().ready(function)
 
 ## 110、看题做答：
 
-|      | function f1(){       var tmp = 1;       this.x = 3;       console.log(tmp);    //A       console.log(this.x)；     //B   }   var obj = new f1(); //1   console.log(obj.x)     //2   console.log(f1());        //3 |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
+```javascript
+function f1(){  
+    var tmp = 1;    
+    this.x = 3;     
+    console.log(tmp);    //A    
+    console.log(this.x)；//B   
+}   
+var obj = new f1();      //1  
+console.log(obj.x)       //2  
+console.log(f1());       //3
+```
 
     分析：    
     
