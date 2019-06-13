@@ -2704,10 +2704,3 @@ export default new Router({
 浏览器渲染效果如下：
 
 ![](./img/Snipaste_2018-10-21_14-11-46.png)
-
-> 本文档大量参考相关书籍、文档、博客、手册等资源，最终解释权归 [**西岭老湿**](https://zhuanlan.zhihu.com/xilinglaoshi) 个人所有；
->
-> 参考资源相关列表:
->
-> https://cn.vuejs.org/   Vue.js 官方网站
->
