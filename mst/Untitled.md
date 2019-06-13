@@ -781,6 +781,7 @@ CSS3新增伪类举例：
 
 
 
+
         background-color:blue;      /*firefox*/
     
         background-color:red\9;      /*all ie*/
@@ -4861,17 +4862,16 @@ Datalist   datetime   output   keygen  date  month  week  time  number   range  
 
 ## 25、(写)描述一段语义的html代码吧。
 
-（HTML5中新增加的很多标签（如：<article>、<nav>、<header>和<footer>等）
+（HTML5中新增加的很多标签（如：`<article>、<nav>、<header>`和`<footer>`等）
 
 就是基于语义化设计原则）  
 
+```html
 < div id="header">
-
 < h1>标题< /h1>
-
 < h2>专注Web前端技术< /h2>
-
 < /div>
+```
 
 语义 HTML 具有以下特性：
 
@@ -4879,11 +4879,11 @@ Datalist   datetime   output   keygen  date  month  week  time  number   range  
 
 文字包裹在元素中，用以反映内容。例如：
 
-段落包含在 <p> 元素中。
+段落包含在 `<p>` 元素中。
 
-顺序表包含在<ol>元素中。
+顺序表包含在`<ol>`元素中。
 
-从其他来源引用的大型文字块包含在<blockquote>元素中。
+从其他来源引用的大型文字块包含在`<blockquote>`元素中。
 
 HTML 元素不能用作语义用途以外的其他目的。例如：
 
@@ -4891,11 +4891,11 @@ HTML 元素不能用作语义用途以外的其他目的。例如：
 
 <blockquote>包含大段引述，但并非用于文本缩进。
 
-空白段落元素 ( <p></p> ) 并非用于跳行。
+空白段落元素 ( `<p></p>` ) 并非用于跳行。
 
 文本并不直接包含任何样式信息。例如：
 
-不使用 <font> 或 <center> 等格式标记。
+不使用 `<font>` 或 `<center> `等格式标记。
 
 类或 ID 中不引用颜色或位置。
 
